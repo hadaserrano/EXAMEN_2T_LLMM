@@ -1,0 +1,122 @@
+:root {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: "street";
+    src: url(../assets/font/street.otf);
+  
+    
+}
+body{
+    background-image: url(../assets/img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: cover;
+}
+h1, h2{
+    font-family: street;
+    font-size: 46px;
+    color: crimson;
+    text-align: center;
+}
+h2{
+    font-size: 28px;
+    }
+
+#cabecera{
+    background-image: url(../assets/img/fondocabecera.jpg);
+    color: whitesmoke;
+    font-size: 40px;
+    background-size: 100% 100%;
+    opacity: 0.5;  
+}
+
+table{
+    height: 800px;
+    width: 600px;
+    border-radius: 10px;
+    border: 10px outset rgb(237, 175, 5);
+    margin: auto;
+    background-color: black;
+}
+
+tr, td{
+width: 40px;
+height: 45px;
+font-family: street;
+border: 2px;
+border-color: solid grey;
+border-radius: 10px;
+font-size: 18px;
+color: darkorange;
+text-align: center;
+}
+
+
+form{
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+legend{
+font-family: street;
+font-size: 14px;
+color: rgb(237, 175, 5);
+}
+
+textarea{
+    width: 560px;
+    display: block;
+}
+
+legend{
+font-family: street;
+font-size: 14px;
+color: rgb(237, 175, 5);
+}
+
+fieldset{
+    margin-bottom: 20px;
+}
+.data label{
+  display: block;
+  margin: 10px 0px;  
+}
+
+.sexo label{
+    display: block;
+}
+
+.sexo{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.fecha-naci{
+    margin-top: 15px;
+}
+
+.buttons{
+border: 1px;
+background-color: crimson;
+font-family: street;
+font-size: 18px;
+color: white;
+width: 200px;
+height: 50px;
+border-radius: 5px;
+margin-bottom: 10px;
+margin-left: 65px;
+cursor: pointer;
+margin-top: 15px;
+align-items: center;
+
+}
